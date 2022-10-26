@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+h2{
+    text-align: center;
+    color:black
+}
+body{
+    /* background-color:azure; */
+    text-transform: capitalize;
+    background-image: url("feedbackBack.jpg");
+}
+ /* .container{
+    height: 500px;
+    width: 500px;
+    margin: 50px auto; 
+} */
+.container form{
+    height: 500px;
+    width: 500px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 30px;
+    background-color: rgb(232, 244, 244);
+
+}
+.container form label{
+    font-size: 1rem;
+    padding: 3px 0;
+}
+ /* .container form input textarea{
+    border: 100px;
+    box-shadow: 2px 2px 3px 0;
+ } */
+.container form input[type="button"]{
+    align-self: flex-end;
+    height: 30px;
+    width:60px;
+    font-size: 80%;
+}
+table{
+    
+}
+
